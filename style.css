@@ -1,0 +1,550 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #faf7f2;
+}
+
+h2,
+h3,
+p {
+  color: #2d210a;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  padding: 0px 122px 0px 122px;
+  border-bottom: 1px solid #d9d7d1;
+  height: 86px;
+          : 500;
+}
+.link-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.link-nav a {
+  text-decoration: none;
+  color: #2d210a;
+}
+.link-nav a:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 165px;
+  height: 38px;
+  border: 1px solid #131304;
+  border-radius: 100px;
+  background-color: #f9b233;
+  padding: 0px 20px 0px 20px;
+}
+.logo-nav {
+  display: flex;
+  align-items: center;
+  color: #0a0a0a;
+  gap: 12px;
+}
+
+.logo-nav img {
+  width: 33.56px;
+  height: 33.64px;
+}
+
+.info-section {
+  padding: 2.9rem 2rem;
+}
+
+.main-heading {
+  color: #2d210a;
+  text-align: center;
+}
+
+.main-heading h1 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 54px;
+  position: relative;
+}
+
+.highlight {
+  position: relative;
+}
+
+.underline-image {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+.main-heading p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.statistic {
+  display: flex;
+  justify-content: center;
+  color: #2d210a;
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.num {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.text-for-num {
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  align-items: center;
+}
+
+.btn-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+.btn-main button:first-child {
+  border: 1px solid #131304;
+  border-radius: 100px;
+  background-color: #f9b233;
+  padding: 0px 40px 0px 40px;
+  width: 241px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn-main button:last-child {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #665d4b;
+  color: #665d4b;
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 0px 40px 0px 40px;
+  width: 241px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.main-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* why-us section */
+
+.why-us {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.why-us h2 {
+  text-align: center;
+  margin-bottom: 52px;
+  font-weight: 500;
+  line-height: 48px;
+  font-size: 32px;
+}
+
+.problems-div {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 0px 120px 0px 120px;
+}
+
+.problem-block {
+  border: 1px solid #bdb9af;
+  border-radius: 20px;
+  padding: 0px 30px 0px 30px;
+  text-align: center;
+}
+
+.problem-block p {
+  line-height: 24px;
+  font-size: 25px;
+  height: 22px;
+  width: 350.67px;
+  margin-bottom: 0;
+}
+
+.problem-block h3 {
+  margin-top: 8px;
+  line-height: 22px;
+  font-size: 16px;
+  height: 22px;
+  font-weight: 400;
+}
+
+.decision-div {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 0px 120px 0px 120px;
+}
+
+.decision-block {
+  background-color: #ffffff;
+  width: 411px;
+  height: 268px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.decision-block p {
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 28px;
+  height: 28px;
+  border-bottom: 1px solid #2fac66;
+  display: inline-block;
+  padding-bottom: 5.75px;
+  padding-top: 16px;
+  margin-top: 0px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  align-items: center;
+  gap: 10px;
+  margin: 0px 50px 0px 50px;
+}
+
+.item h3 {
+  margin: 0;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+
+.item img {
+  margin-bottom: 24px;
+  width: 35px;
+}
+
+.icon-img {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 0px 81px 0px 81px;
+  width: 238px;
+  margin-bottom: 4px;
+}
+
+.icon-text {
+  display: flex;
+  width: 258px;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 0px 79px 0px 63px;
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #bdb9af;
+}
+
+.icon-text h4 {
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.title {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 16px 0px 130px;
+}
+
+.title img {
+  margin-top: 16px;
+  width: 26px;
+  height: 26px;
+}
+
+.receive-text {
+  margin-top: 40px;
+  height: 36px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.receive-block {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 0px 200px 0px 265px;
+}
+
+.receive-block h3 {
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.teacher-section {
+  border: 1px solid #d9d7d1;
+  border-radius: 300px 300px 0px 0px;
+  background-color: #ffffff;
+}
+
+.teacher-section h2 {
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  line-height: 48px;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.teacher-section h4 {
+  margin: 0px;
+  padding-bottom: 60px;
+  padding-top: 12px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #4a3f2a;
+}
+
+.admin {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 335px 0px 335px;
+}
+
+.admin p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0px;
+}
+
+.admin h4 {
+  text-align: left;
+  padding: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #665d4b;
+}
+
+.dawn {
+  width: 120px;
+  height: 120px;
+}
+
+.ptext {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0px 335px 0px 335px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.teacher {
+  display: flex;
+  gap: 100px;
+  padding: 0px 160px 0px 160px;
+}
+
+.teacher p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.teacher h4 {
+  padding-top: 8px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: #665d4b;
+  font-weight: 400;
+}
+
+/*  */
+/* 
+.banner {
+  display: flex;
+  height: 170px;
+  background-color: #2fac66;
+}
+
+.banner h2 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.banner span {
+  color: #f9b233;
+}
+
+.banner h3 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.banner button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 133px;
+  height: 50px;
+  border: 1px solid #131304;
+  border-radius: 100px;
+  background-color: #f9b233;
+  padding: 0px 40px 0px 40px;
+  font-weight: 500;
+}
+
+ */
+
+/*  */
+
+.way-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.title-way-section {
+  margin-top: 80.3px;
+  margin-bottom: 108px;
+  text-align: center;
+  color: #131304;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.way-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+.step-image {
+  grid-column: 2;
+  justify-self: center;
+}
+
+.step-desc {
+  grid-column: 2;
+}
+
+.icon {
+  place-self: start;
+}
+/*  */
+
+/* Way section */
+
+.title-way-section {
+  margin-top: 80.3px;
+  margin-bottom: 108px;
+  text-align: center;
+  color: #131304;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.way-section {
+  display: grid;
+  grid-template-columns: 750px 12px 750px;
+  grid-template-rows: 2fr 1fr 1fr;
+  text-align: center;
+}
+
+.way-section p {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.step1 {
+  margin-bottom: 200px;
+  margin-left: 120px;
+}
+
+.step3 {
+  margin-bottom: 346px;
+  margin-left: 120px;
+}
+
+.step5 {
+  width: 219px;
+  height: 129px;
+  line-height: 129px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 346px;
+  margin-left: 506px;
+}
+
+.star {
+  position: absolute;
+  height: auto;
+}
+
+.star1 {
+  bottom: 21px;
+  left: 0;
+}
+
+.star2 {
+  top: 0;
+  left: 50px;
+}
+
+.star3 {
+  bottom: 0;
+  right: 0px;
+}
+
+.way-line {
+  grid-column: 2;
+  grid-row: 1;
+}
